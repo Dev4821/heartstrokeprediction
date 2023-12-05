@@ -1,2 +1,2 @@
-#Heart Stroke Prediction
+# Heart Stroke Prediction
 The "Heart Stroke Prediction" project aims to forecast potential heart strokes using Machine Learning (ML) and the MERN stack (MongoDB, Express.js, React, Node.js). ML algorithms analyze health data to predict stroke likelihood. Python facilitates ML model creation, training, and data analysis. The MERN stack handles data storage, server-side logic, and user interface development. Users input health info, and the system provides stroke risk assessments based on patterns in the data. This project merges ML's predictive capabilities with a user-friendly interface, empowering individuals to assess their stroke risk, promoting early awareness, and potentially aiding in preventive healthcare measures.
