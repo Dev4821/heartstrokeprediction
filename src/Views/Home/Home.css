@@ -1,0 +1,39 @@
+.homeMainPage{
+  
+    height: auto;
+    width: 100%;
+
+}
+.heroSection{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(rgb(124, 145, 178),rgb(155, 173, 183));
+}
+.heroVideo{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.heroVideo video{
+
+    height: 600px;
+    width: auto;
+}
+.headline{
+    text-align: center;
+}
+.learnMore{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.learnMoreButton{
+    font-size: 1.5rem;
+    color: azure;
+    background-color: rgba(58, 125, 207, 0.803);
+    box-shadow: black 1px 1px;
+    border-radius: 10px;
+}
+.learnMoreButton:hover{
+    background-color: rgba(29, 104, 244, 0.803);
+}

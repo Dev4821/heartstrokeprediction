@@ -1,0 +1,127 @@
+.mainContainer{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 40, 158, 0.94) 28%, rgba(1, 1, 22, 0.973));
+
+}
+.navbarContainer{
+    display: flex;
+    align-items: center;
+   position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1000;
+    
+
+}
+.navbarfixedcontainer{
+    display: flex;
+    align-items: center;
+   position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1000;
+    background-color: azure;
+}
+.mainLogo{
+    margin-left: 5%;
+}
+.logoImage{
+    height: 100px;
+    width: auto;
+
+}
+.navmenu{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-right: 5%;
+}
+.navmenu li{
+     list-style: none;
+     font-size: 1.5rem;
+    
+}
+.navOption{
+    color: azure;
+}
+.navOption:hover{
+    border-bottom:3px solid azure ;
+}
+.navOptionFixed{
+    color:rgba(1, 1, 22, 0.973) ;
+}
+.navOptionFixed:hover{
+    border-bottom:3px solid rgba(1, 1, 22, 0.973)  ;
+}
+
+/* header part */
+.headerContainer{
+ 
+   padding-top: 8rem;
+   
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.headerContainerPart1{
+    width: 50%;
+}
+.mainHeading{
+    margin-left:10%;
+  
+    width: 100%;
+
+}
+.mainHeadingh1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subcontent{
+    margin-left:10%;
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.subcontenth3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bookNow{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bookNowButton{
+    font-size: 2rem;
+    color: azure;
+    background-color: rgba(207, 58, 58, 0.803);
+    box-shadow: black 2px 2px;
+    border-radius: 10px;
+}
+.bookNowButton:hover{
+    background-color: rgba(244, 29, 29, 0.803);
+}
+.sideGif {
+ 
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    margin-right: 10%;
+}
+.sideGif img{
+    position: absolute;
+    height: 30rem;
+    left:-10rem;
+    top:-4rem;
+    
+}
