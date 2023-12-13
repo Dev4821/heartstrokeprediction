@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Pptviewer() {
     const linkToPPTFile =
-  "https://docs.google.com/presentation/d/1kFxMiflxZoe8H4L0x3VQWinqYKYmGEHu/edit?usp=sharing&ouid=111187959648101235653&rtpof=true&sd=true"
+  "https://docs.google.com/presentation/d/1ShYwM0OH43KCyLhESuHKf2g8hPqg58Jb/edit?usp=sharing&ouid=111187959648101235653&rtpof=true&sd=true"
   useEffect(() => {
     AOS.init();
   }, []);
