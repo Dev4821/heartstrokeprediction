@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import "./Navbar.css";
 import mainLogo from './assests/mainLogo.png'
-import sideImage from './assests/heartGif.gif'
+// import sideImage from './assests/doctor-heart.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -73,7 +73,7 @@ function Navbar(props) {
              </div>
           </div>
           <div className="sideGif">
-            <img src={sideImage} alt="heartGif" />
+            {/* <img src={sideImage} alt="heartGif" /> */}
           </div>
              
              

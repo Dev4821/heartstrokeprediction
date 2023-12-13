@@ -1,7 +1,9 @@
 .mainContainer{
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(rgba(10, 40, 158, 0.94) 28%, rgba(1, 1, 22, 0.973));
+    background-image: url("assests/doctor-heart.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
 .navbarContainer{
@@ -43,10 +45,10 @@
     
 }
 .navOption{
-    color: azure;
+    color: rgb(3, 6, 84);
 }
 .navOption:hover{
-    border-bottom:3px solid azure ;
+    border-bottom:3px solid rgb(3, 6, 84) ;
 }
 .navOptionFixed{
     color:rgba(1, 1, 22, 0.973) ;
@@ -78,7 +80,7 @@
 }
 .mainHeadingh1{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 6, 84);
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -93,7 +95,7 @@
 }
 .subcontenth3{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 6, 84);
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
