@@ -1,0 +1,27 @@
+.Main_Container{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(10, 40, 158, 0.94) 28%, rgba(1, 1, 22, 0.973));
+}
+.heading{
+    width: 100%;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 30px; 
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.presentation{
+   border-radius: 20px;
+    box-shadow: rgba(69, 70, 101, 0.677) 10px 5px ;
+}
+.presentation iframe{
+    border-radius: 20px;
+}

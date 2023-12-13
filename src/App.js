@@ -4,6 +4,7 @@ import Footer from './Views/Footer';
 import Navbar from './Views/Navbar';
 import Home from './Views/Home';
 import { useEffect,useState } from 'react';
+import Pptviewer from './Views/Pptviewer';
 
 function App() {
   
@@ -34,6 +35,7 @@ function App() {
     <>
     <Navbar flag={check}/>
     <Home/>
+    <Pptviewer/>
     <Footer/>
     </>
   );
